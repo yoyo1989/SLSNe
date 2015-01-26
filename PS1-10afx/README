@@ -1,0 +1,8 @@
+Robert Quimby has now shown it to be a lensed SN Ia
+
+These are three-column: wavelength, flux, error.  I think the MMIRS data are in vacuum wavelength and the others are in air. 
+
+The IAU standard for conversion from air to vacuum wavelengths is given in Morton (1991, ApJS, 77, 119). For vacuum wavelengths (VAC) in Angstroms, convert to air wavelength (AIR) via:
+
+AIR = VAC / (1.0 + 2.735182E-4 + 131.4182 / VAC^2 + 2.76249E8 / VAC^4)
+

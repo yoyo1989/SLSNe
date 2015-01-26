@@ -1,0 +1,42 @@
+================================================================================
+Title: Discovery of an Unusual Optical Transient with the Hubble Space Telescope
+Authors: K. Barbary, K. S. Dawson, K. Tokita, G. Aldering, R. Amanullah, 
+N. V. Connolly, M. Doi, L. Faccioli, V. Fadeyev, A. S. Fruchter, G. Goldhaber,
+ A. Goobar, A. Gude, X. Huang, Y. Ihara, K. Konishi, M. Kowalski, C. Lidman,
+ J. Meyers, T. Morokuma, P. Nugent, S. Perlmutter, D. Rubin, D. Schlegel,
+ A. L. Spadafora, N. Suzuki, H. K. Swift, N. Takanashi, R. C. Thomas,
+ and N. Yasuda (The Supernova Cosmology Project)
+================================================================================
+Description of contents: 
+This package contains the spectroscopic data of 
+SCP 06F6 as represented in Fig. 3. There are three ASCII files; one for each 
+of the spectra shown in Fig. 3:
+
+20060422_SUBARU.dat : 2006 April 22 Subaru FOCAS spectrum
+20060518_VLT.dat : 2006 May 18 VLT FORS2 spectrum
+20060528_KECK.dat : 2006 May 28 Keck LRIS spectrum
+
+Each file contains wavelength and flux on each line separated by a space.
+Wavelength units are Angstroms (0.1 nm).
+Flux is Flambda with units of ergs/s/cm2/Angstrom.
+
+
+System requirements: None
+
+
+Additional comments: 
+Each spectrum is flux-calibrated to within an overall 
+multiplicative factor. 
+
+The Subaru spectrum covers wavelengths longward of 
+5900~\AA, while the VLT and Keck spectra cover bluer wavelengths.
+The VLT spectrum (observed at airmass $> 2$) is corrected for differential 
+slit loss by applying a linear correction with a slope of 0.25 per 1000~\AA, 
+derived from a comparison to the Keck spectrum, which covers the 
+entire wavelength range of the VLT spectrum.
+The Keck observation was made at the parallactic angle, 
+while Subaru FOCAS is equipped with an atmospheric dispersion corrector,
+making the Keck and Subaru observations more reliable measures of 
+relative flux.
+
+================================================================================
