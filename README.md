@@ -1,2 +1,2 @@
 # SLSNe
-current project
+current research project (not up to date)
